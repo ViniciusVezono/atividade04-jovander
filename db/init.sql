@@ -1,10 +1,24 @@
-CREATE TABLE Clientes (
+
+CREATE DATABASE IF NOT EXISTS app_db;
+
+
+CREATE USER IF NOT EXISTS 'appuser'@'%' IDENTIFIED BY 'password';
+
+
+GRANT ALL PRIVILEGES ON app_db.* TO 'appuser'@'%';
+
+FLUSH PRIVILEGES;
+
+USE app_db;
+
+CREATE TABLE IF NOT EXISTS Clientes (
     Id_Cliente INT AUTO_INCREMENT PRIMARY KEY,
     Nome VARCHAR(100),
     Endereco VARCHAR(255),
     Cidade VARCHAR(100),
     Telefone VARCHAR(20)
 );
+
 
 INSERT INTO Clientes (Nome, Endereco, Cidade, Telefone) VALUES
 ('Joao Silva', 'Rua das Flores, 123', 'Sao Paulo', '(11) 98765-4321'),
