@@ -2,20 +2,6 @@
 
 Este é o `README` para a Atividade 04, que consiste em uma aplicação web desenvolvida em PHP, utilizando um banco de dados MySQL e totalmente containerizada com Docker.
 
-## 📝 Descrição
-
-*(Aqui você pode descrever o objetivo da sua aplicação. Por exemplo: "Este projeto é um CRUD simples de clientes, onde é possível listar, inserir, editar e excluir registros. O objetivo principal foi estudar e aplicar os conceitos de containerização com Docker, criando um ambiente de desenvolvimento completo e portátil.")*
-
-## ✨ Tecnologias Utilizadas
-
-* **Backend:** PHP
-* **Banco de Dados:** MySQL
-* **Servidor Web:** Apache
-* **Containerização:** Docker
-* **Gerenciador de Dependências:** Composer
-
-## ✅ Pré-requisitos
-
 Antes de começar, você precisa ter as seguintes ferramentas instaladas na sua máquina:
 * [Docker](https://www.docker.com/get-started)
 * [Composer](https://getcomposer.org/download/) (Necessário para a instalação inicial de dependências)
