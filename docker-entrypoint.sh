@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 set -e
 
@@ -6,7 +6,6 @@ echo "Iniciando o serviço do MySQL..."
 service mysql start
 
 sleep 5
-
 
 echo "Executando script de configuração completa do banco de dados..."
 mysql -u root < /docker-entrypoint-initdb.d/init.sql
