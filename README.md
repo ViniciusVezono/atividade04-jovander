@@ -47,7 +47,7 @@ docker build -t app-php-mysql .
 Após o build ser concluído, suba o container com o seguinte comando. Ele irá iniciar a aplicação e o banco de dados, além de criar um volume para persistir os dados.
 
 ```bash
-docker run -d --name container-php-mysql -p 8080:80 -p 3306:3306 -v dados-mysql:/var/lib/mysql app-php-mysql
+docker run -d --name container-php-mysql -p 8080:80 -p 3306:3306 -v dados-mysql:/var/lib/mysql viniciusvezono/app-php-mysql:1.0
 ```
 * A flag `-d` executa o container em segundo plano.
 * A flag `--name` dá um nome fácil de lembrar ao container.
