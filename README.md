@@ -6,7 +6,7 @@ Antes de começar, você precisa ter as seguintes ferramentas instaladas na sua 
 * [Docker](https://www.docker.com/get-started)
 * [Composer](https://getcomposer.org/download/) (Necessário para a instalação inicial de dependências)
 * [Git](https://git-scm.com/downloads) (Opcional, para clonar o projeto)
-
+* [Link do DockerHub](https://hub.docker.com/r/viniciusvezono/app-php-mysql)
 ## 🚀 Como Rodar o Projeto
 
 Siga os passos abaixo para construir a imagem e executar o container da aplicação.
